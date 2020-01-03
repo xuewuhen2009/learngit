@@ -5,3 +5,4 @@ Git tracks changes of files.
 I have already builded a remote repositoty and connected to it.
 Creating a new branch is quick AND simple.
 Add merge with  --no-ff(fast forward).
+Write something in dev branch.
