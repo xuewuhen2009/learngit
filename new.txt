@@ -1,0 +1,5 @@
+git init 初始化git仓库
+git add file 从工作区将文件添加到暂存区
+git restore --stage file 将文件从暂存区回复到工作区
+git restore file 将文件的修改删除
+git commit -m "commit message" 提交文件改变版本库
