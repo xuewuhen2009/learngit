@@ -48,3 +48,26 @@ git stash pop //回复现场
 
 
 git branch -D dev //强制删除分支
+
+
+git remote //查看远程库信息
+git remote -v
+origin  git@github.com:michaelliao/learngit.git (fetch)
+origin  git@github.com:michaelliao/learngit.git (push)
+
+//推送分支
+git push origin master
+//推送其他分支
+git push origin dev
+
+
+//git clone默认只能看到master分支
+git checkout -b dev orign/dev //将远程Dev分支在本地也创建一份
+git push origin dev
+
+git pull  
+git pull <remote> <branch>
+
+//将本地dev分支与远程origin/dev分支建立连接：
+git branch --set-upstream-to=origin/dev dev
+
