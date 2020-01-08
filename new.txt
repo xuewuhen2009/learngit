@@ -13,3 +13,11 @@ new: git restore file to discard changes in working directory
 
 old: git reset HEAD file to discard changes in stage
 new: git restore --stage file to discard changes in stage
+
+//现有本地库，在建远程库GitHub
+git remote add origin github地址
+git push -u origin master 第一次需要加 -u
+git push origin master
+//现有远程库，在建本地库
+git clone 远程库地址
+git push origin master
