@@ -29,7 +29,7 @@ git branch dev
 git checkout dev
 
 //创建和切换分支
-git  switch -c dev
+git  switch -c dev //in master branch
 
 
 
