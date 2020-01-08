@@ -4,3 +4,12 @@ git restore --stage file 将文件从暂存区回复到工作区
 git restore file 将文件的修改删除
 git commit -m "commit message" 提交文件改变版本库
 git diff  //显示修改的内容
+git reset --hard HEAD or HEAD^  or verID
+git reflog 可查看历史提交记录
+
+old: git checkout -- file to discard changes in working directory
+new: git restore file to discard changes in working directory
+
+
+old: git reset HEAD file to discard changes in stage
+new: git restore --stage file to discard changes in stage
