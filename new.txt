@@ -43,3 +43,4 @@ git log --graph --pretty=oneline --abbrev-commit //美化显示提交记录
 git merge --no-ff -m "merge with --no-ff" branch-no-ff//加--no-ff，当删除分支时不会丢失分支信息
 
 
+//测试git stash
