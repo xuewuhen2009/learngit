@@ -28,3 +28,10 @@ git checkout -b dev //创建分支Dev并切换到dev
 git branch dev
 git checkout dev
 
+
+
+
+先切回master 再merge
+git checkout master
+git merge dev
+
