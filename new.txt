@@ -71,3 +71,26 @@ git pull <remote> <branch>
 //将本地dev分支与远程origin/dev分支建立连接：
 git branch --set-upstream-to=origin/dev dev
 
+git rebase
+
+
+//标签管理
+git tag v1.0 打标签
+git tag 查看所有标签
+git tag v0.9 commit id 将标签设置在指定的提交上
+git show <tagname>查看标签详细信息
+
+//还可以创建带有说明的标签，用-a指定标签名，-m指定说明文字：
+$ git tag -a v0.1 -m "version 0.1 released" 1094adb
+
+git tag -d v1.0 删除标签
+git push origin v1.0 推送标签到远程
+git push orign --tags 推送所有标签到远程
+
+//删除远程标签流程
+1：先删除本地标签
+git tag -d v1.0
+2: 删除远程标签
+git push origin :refs/tags/v1.0
+
+
