@@ -37,3 +37,6 @@ git  switch -c dev
 git checkout master
 git merge dev
 
+
+git log --graph --pretty=oneline --abbrev-commit //美化显示提交记录
+
