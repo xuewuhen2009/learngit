@@ -46,3 +46,5 @@ git merge --no-ff -m "merge with --no-ff" branch-no-ff//加--no-ff，当删除�
 git stash //保护当前分支现场
 git stash pop //回复现场
 
+
+git branch -D dev //强制删除分支
